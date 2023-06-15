@@ -1,0 +1,45 @@
+.tasks1{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.155) 5px 5px 5px 5px;
+    background: #385170; 
+    margin-left: 25%;
+margin-right: 25%;
+font-family: 'IBM Plex Mono', monospace;
+font-weight: 1000;
+font-size: large;
+color: rgb(229, 235, 233);
+display: flex;
+justify-content: center;    
+}
+
+
+.btn-2{
+    margin-left: 50%;
+text-align: center;
+cursor: pointer;
+}
+
+.btn-2 {
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .imgs {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .tasks1 {
+      flex-direction: column;
+    }
+  
+    .btn-2 {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }

@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ececec; 
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ffb6b9; 
+  margin-bottom: 2rem;
+  background: #142d4c; 
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.App {
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.155) 5px 5px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  flex-wrap: wrap;
+  background: #9fd3c7; 
+}
+
+input {
+  margin: 1rem;
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.btn {
+  background-color: rgba(27, 26, 26, 0.687);
+  color: azure;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  flex-shrink: 2;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.btn:hover {
+  color: rgb(27, 26, 26);
+  background-color: azure;
+}
+
+.tasks {
+  display: block;
+  color: rgb(30, 28, 28);
+}
